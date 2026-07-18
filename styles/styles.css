@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -30,6 +36,7 @@ p {
 }
 
 aside {
+    position: relative;
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
@@ -39,8 +46,14 @@ aside {
     text-align: center;
 }
 
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
+
 aside img {
-    width: 200px;
+    width: 20em;
     height: auto;
 }
 
@@ -60,4 +73,13 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    background-color: #ddd;
+    color: #000;
 }
