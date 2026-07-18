@@ -1,6 +1,8 @@
 :root {
     --primary-color: #fff;
+    /* --secondary-color:#f4d35e; */
     --accent1-color: #333234;
+    /* --accent2-color: #ffffff; */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -22,6 +24,14 @@ footer {
     width: 840px;
     margin: 0 auto;
 }
+
+/* header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--accent1-color);
+    color: var(--primary-color);
+} */
 
 h1,
 h2 {
@@ -62,7 +72,7 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 100px;
     background-color: var(--primary-color);
